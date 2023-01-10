@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Odin Project - Flexbox exercises</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-<h1>Comment out each separate exercise to see the outcome</h1> 
+    <h1>Select</h1>
+    <label for="exercise-select">Choose the exercise:</label>
 
-<!-- -------------------------------------------------------------------------- -->
+    <select name="exercises" id="exer-select">
+      <option value="">--Please choose an option--</option>
+      <option value="exercise1">Exercise 1</option>
+      <option value="exercise2">Exercise 2</option>
+      <option value="exercise3">Exercise 3</option>
+      <option value="exercise4">Exercise 4</option>
+      <option value="exercise5">Exercise 5</option>
+      <option value="exercise6">Exercise 6</option>
+      <option value="exercise7">Exercise 7</option>
+    </select>
 
-    <h2>Exercise 1 - Center</h2>
-    <div class="container">
-      <div class="box">center this div</div>
+    <!-- -------------------------------------------------------------------------- -->
+    <div class="exercises" id="exercise1">
+      <h2>Exercise 1 - Center</h2>
+      <div class="container">
+        <div class="box">center this div</div>
+      </div>
     </div>
 
-<!-- -------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------- -->
 
-    <!-- <h2>Exercise 2 - Header</h2>
-    <div class="header">
+    <div class="exercises" id="exercise2">
+      <h2>Exercise 2 - Header</h2>
+      <div class="header">
         <div class="left-links">
           <ul>
             <li><a href="#">ONE</a></li>
@@ -36,138 +50,193 @@
             <li><a href="#">SIX</a></li>
           </ul>
         </div>
-      </div> -->
+      </div>
+    </div>
 
-<!-- -------------------------------------------------------------------------- -->
-
-    <!-- <h2>Exercise 3 - Header 2</h2>
-    <div class="header">
+    <!-- -------------------------------------------------------------------------- -->
+    <div class="exercises" id="exercise3">
+      <h2>Exercise 3 - Header 2</h2>
+      <div class="header">
         <div class="left">
-            <div class="logo">
-            LOGO
-            </div>
-            <ul class="links">
+          <div class="logo">LOGO</div>
+          <ul class="links">
             <li><a href="google.com">link-one</a></li>
             <li><a href="google.com">link-two</a></li>
             <li><a href="google.com">link-three</a></li>
-            </ul>
+          </ul>
         </div>
         <div class="right">
-            <button class="notifications">
-            1 new notification
-            </button>
-            <div class="profile-image"></div>
+          <button class="notifications">1 new notification</button>
+          <div class="profile-image"></div>
         </div>
-      </div> -->
+      </div>
+    </div>
 
-<!-- -------------------------------------------------------------------------- -->
-
-      <!-- <h2>Exercise 4 - Information</h2>
+    <!-- -------------------------------------------------------------------------- -->
+    <div class="exercises" id="exercise4">
+      <h2>Exercise 4 - Information</h2>
       <div class="title">Information!</div>
       <div class="plants">
         <div class="barberry">
-                <img src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/barberry.png" alt="barberry">
-                <div class="text">This is a type of plant. We love this one.</div>
-            </div>
-            <div class="chili">
-                <img src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/chilli.png" alt="chili">
-                <div class="text">This is another type of plant. Isn't it nice?</div>
-            </div>
-            <div class="pepper">
-                <img src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/pepper.png" alt="pepper">
-                <div class="text">We have so many plants. Yay plants.</div>
-            </div>
-            <div class="saffron">
-                <img src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/saffron.png" alt="saffron">
-                <div class="text">I'm running out of things to say about plants.</div>
-            </div>
-        </div> -->
-        <!-- disregard this section, it's here to give attribution to the creator of these icons -->
-        <!-- <div class="footer">
-        <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>  -->
+          <img
+            src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/barberry.png"
+            alt="barberry"
+          />
+          <div class="text">This is a type of plant. We love this one.</div>
+        </div>
+        <div class="chili">
+          <img
+            src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/chilli.png"
+            alt="chili"
+          />
+          <div class="text">This is another type of plant. Isn't it nice?</div>
+        </div>
+        <div class="pepper">
+          <img
+            src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/pepper.png"
+            alt="pepper"
+          />
+          <div class="text">We have so many plants. Yay plants.</div>
+        </div>
+        <div class="saffron">
+          <img
+            src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/04-flex-information/images/saffron.png"
+            alt="saffron"
+          />
+          <div class="text">I'm running out of things to say about plants.</div>
+        </div>
+      </div>
+      <div class="footer">
+        <div>
+          Icons made by
+          <a
+            href="https://www.flaticon.com/authors/icongeek26"
+            title="Icongeek26"
+            >Icongeek26</a
+          >
+          from
+          <a href="https://www.flaticon.com/" title="Flaticon"
+            >www.flaticon.com</a
+          >
+        </div>
+      </div>
 
-<!-- -------------------------------------------------------------------------- -->
-
-        <!--<h2>Exercise 5 - modal </h2>
+      <!-- -------------------------------------------------------------------------- -->
+      <div class="exercises" id="exercise5">
+        <h2>Exercise 5 - modal</h2>
         <div class="modal">
-            <div class="icon">!</div>
-            <div class="info">
-                <div class="header">Are you sure you want to do that?</div>
-                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
-                <div class="buttons">
-                    <button class="continue">Continue</button>
-                    <button class="cancel">Cancel</button>
-                </div>
-            </div>
-            <div class="close-button">✖</div>
-          </div> -->
-
-<!-- -------------------------------------------------------------------------- -->
-
-          <!-- <h2>Exercise 6 - Layout</h2> -->
-          <!-- <div class="header">
-            <ul class="left-links">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Store</a></li>
-            </ul>
-            <ul class="right-links">
-              <li><a href="#">Profile</a></li>
-              <li><a href="#">Settings</a></li>
-            </ul>
-          </div>
-          <div class="content">
-            <img src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/06-flex-layout/logo.png" alt="Project logo. Represents odin with the project name.">
-            <div class="input">
-              <input type="text">
+          <div class="icon">!</div>
+          <div class="info">
+            <div class="header">Are you sure you want to do that?</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              excepturi id soluta, numquam minima rerum doloremque eveniet
+              aspernatur beatae commodi. Cupiditate recusandae ad repellendus
+              quidem consectetur sequi amet aspernatur cumque!
             </div>
             <div class="buttons">
-              <button>Do the thing!</button>
-              <button>Do the other thing!</button>
+              <button class="continue">Continue</button>
+              <button class="cancel">Cancel</button>
             </div>
           </div>
-          <div class="footer">
-            <ul class="left-links">
-              <li><a href="#">Advertising</a></li>
-              <li><a href="#">Business</a></li>
-            </ul>
-            <ul class="right-links">
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
+          <div class="close-button">✖</div>
+        </div>
+      </div>
+
+      <!-- -------------------------------------------------------------------------- -->
+      <div class="exercises" id="exercise6">
+        <h2>Exercise 6 - Layout</h2>
+        <div class="header">
+          <ul class="left-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+          </ul>
+          <ul class="right-links">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </div>
+        <div class="content">
+          <img
+            src="https://raw.githubusercontent.com/TheOdinProject/css-exercises/main/flex/06-flex-layout/logo.png"
+            alt="Project logo. Represents odin with the project name."
+          />
+          <div class="input">
+            <input type="text" />
+          </div>
+          <div class="buttons">
+            <button>Do the thing!</button>
+            <button>Do the other thing!</button>
+          </div>
+        </div>
+        <div class="footer">
+          <ul class="left-links">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+          </ul>
+          <ul class="right-links">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- -------------------------------------------------------------------------- -->
+      <div class="exercies" id="exercise7">
+        <h2>Exercise 7 - Layout 2</h2>
+
+        <div class="header">MY AWESOME WEBSITE</div>
+        <div class="content">
+          <div class="sidebar">
+            <ul>
+              <li><a href="#">⭐ - link one</a></li>
+              <li><a href="#">🦸🏽‍♂️ - link two</a></li>
+              <li><a href="#">🖌️ - link three</a></li>
+              <li><a href="#">👌🏽 - link four</a></li>
             </ul>
           </div>
-        -->
-
- <!-- -------------------------------------------------------------------------- -->
-
-<!-- <h2>Exercise 7 - Layout 2 </h2> -->
-
-<!-- <div class="header">
-    MY AWESOME WEBSITE
-  </div>
-    <div class="content">
-        <div class="sidebar">
-            <ul>
-            <li><a href="#">⭐ - link one</a></li>
-            <li><a href="#">🦸🏽‍♂️ - link two</a></li>
-            <li><a href="#">🖌️ - link three</a></li>
-            <li><a href="#">👌🏽 - link four</a></li>
-            </ul>
+          <div class="cards">
+            <div class="card">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+              eveniet? Dolorem dignissimos maiores non delectus possimus dolor
+              nulla repudiandae vitae provident quae, obcaecati ipsam unde
+              impedit corrupti veritatis minima porro?
+            </div>
+            <div class="card">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi
+              quaerat qui iure ipsam maiores velit tempora, deleniti nesciunt
+              fuga suscipit alias vero rem, corporis officia totam saepe
+              excepturi odit ea.
+            </div>
+            <div class="card">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid
+              iure nulla. Laudantium optio accusantium quaerat fugiat, natus
+              officia esse autem?
+            </div>
+            <div class="card">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus nihil impedit eius amet adipisci dolorum vel
+              nostrum sit excepturi corporis tenetur cum, dolore incidunt
+              blanditiis. Unde earum minima laboriosam eos!
+            </div>
+            <div class="card">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid
+              iure nulla. Laudantium optio accusantium quaerat fugiat, natus
+              officia esse autem?
+            </div>
+            <div class="card">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus nihil impedit eius amet adipisci dolorum vel
+              nostrum sit excepturi corporis tenetur cum, dolore incidunt
+              blanditiis. Unde earum minima laboriosam eos!
+            </div>
+          </div>
         </div>
-        <div class="cards">
-        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet? Dolorem dignissimos maiores non delectus possimus dolor nulla repudiandae vitae provident quae, obcaecati ipsam unde impedit corrupti veritatis minima porro?</div>
-        <div class="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quaerat qui iure ipsam maiores velit tempora, deleniti nesciunt fuga suscipit alias vero rem, corporis officia totam saepe excepturi odit ea.</div>
-        <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?</div>
-        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!</div>
-        <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?</div>
-        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!</div>
-        </div>
+      </div>
+      <div class="footer">The Odin Project ❤️</div>
     </div>
-  <div class="footer">
-    The Odin Project ❤️
-  </div> -->
-
-
-
-    </div>
+    <script></script>
   </body>
 </html>

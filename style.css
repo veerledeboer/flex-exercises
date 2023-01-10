@@ -3,8 +3,8 @@
 
   /* ---------------------------------------------------------------------------------- */
 
- /* Exercise 1  */
-.container {
+ 
+#exercise1 .container {
     background: dodgerblue;
     border: 4px solid midnightblue;
     width: 400px;
@@ -14,7 +14,7 @@
     align-items: center;
   }
   
-  .box {
+#exercise1 .box {
     background: palevioletred;
     font-weight: bold;
     text-align: center;
@@ -25,8 +25,8 @@
 
 /* --------------------------------------------------------------------------------- */
 
-/* Exercise 2 */
-/* .header  {
+ /* Exercise 2 */
+ #exercise2 .header  {
     font-family: monospace;
     background: papayawhip;
     display: flex;
@@ -36,7 +36,7 @@
     padding: 8px;
   }
   
-  .logo {
+  #exercise2 .logo {
     font-size: 48px;
     font-weight: 900;
     color: tomato;
@@ -44,35 +44,35 @@
     padding: 4px 32px;
   }
   
-  ul { */
+  #exercise2 ul { 
     /* this removes the dots on the list items*/
-    /* list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
   margin: 0;
   padding: 0;
   gap: 8px;
   }
   
-  a {
+  #exercise2 a {
     font-size: 22px;
     background: white;
-    padding: 8px; */
+    padding: 8px;
     /* this removes the line under the links */
-    /* text-decoration: none;
-  } */
+    text-decoration: none;
+  } 
 
 /* ---------------------------------------------------------------------------------- */
 
 /* Exercise 3 - Header 2 */
-/* @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-body {
+#exercise3 body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
 }
 
-.header {
+#exercise3 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -83,7 +83,7 @@ body {
   padding: 8px;
 }
 
-.profile-image {
+#exercise3 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -91,14 +91,14 @@ body {
   height: 48px;
 }
 
-.logo {
+#exercise3 .logo {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
 }
 
-button {
+#exercise3 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -106,12 +106,12 @@ button {
   padding: 8px 24px;
 }
 
-a {
+#exercise3 a {
   text-decoration: none;
   color: rebeccapurple;
 }
 
-ul {
+#exercise3 ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -120,25 +120,25 @@ ul {
   margin:0;
 }
 
-.left, .right {
+#exercise3 .left, .right {
     display: flex;
     gap: 16px;
     align-items: center; 
-} */
+}
 
 /*---------------------------------------------------------------------------------- */
 
 /* exercise 4 - Information */
-/* body {
+#exercise4 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
   }
-  img {
+  #exercise4 img {
     width: 100px;
     height: 100px;
   }
   
-  .title {
+  #exercise4 .title {
     font-size: 36px;
     font-weight: 900;
     padding: 32px;
@@ -146,22 +146,22 @@ ul {
     justify-content: center;
   }
   
-  .plants {
+  #exercise4 .plants {
     display: flex;
     justify-content: center;
     gap: 52px;
   }
 
-  .barberry, .chili, .pepper, .saffron {
+  #exercise4 .barberry, .chili, .pepper, .saffron {
     max-width: 200px;
   }
 
-  .text {
+  #exercise4 .text {
     display: flex;
     flex-wrap: wrap;
   }
   /* do not edit this footer */
-  /*.footer {
+  #exercise4 .footer {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -171,17 +171,18 @@ ul {
     align-items: center;
     justify-content: center;
     background: #eee;
-  } */
+  }
 
+/*---------------------------------------------------------------------------------- */
   /* Exercise 5 - modal */
 
-  /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
+#exercise5 html, body {
   height: 100%;
 }
 
-body {
+#exercise5 body {
   font-family: Roboto, sans-serif;
   margin: 0;
   background: #aaa;
@@ -191,7 +192,7 @@ body {
   justify-content: center;
 }
 
-.modal {
+#exercise5 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -201,7 +202,7 @@ body {
   padding: 16px;
 }
 
-.icon {
+#exercise5 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -216,7 +217,7 @@ body {
   margin-right: 15px;
 }
 
-.close-button {
+#exercise5 .close-button {
   background: #eee;
   border-radius: 50%;
   color: #888;
@@ -230,47 +231,47 @@ body {
   flex-shrink: 0;
 }
 
-.info {
+#exercise5 .info {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.header {
+#exercise5 .header {
     font-weight: 700;
     font-size: 18px;
 }
 
-.buttons {
+#exercise5 .buttons {
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
-button {
+#exercise5 button {
   padding: 8px 16px;
   border-radius: 8px;
 }
 
-button.continue {
+#exercise5 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
 }
 
-button.cancel {
+#exercise5 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-} */
+}
 
 /* ------------------------------------------------------------------------- */
 
 /* Exercise 6 - layout */
 
 
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
+#exercise6 body {
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -280,11 +281,11 @@ body {
   flex-direction: column;
 }
 
-img {
+#exercise6 img {
   width: 600px;
 }
 
-button {
+#exercise6 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
@@ -292,12 +293,12 @@ button {
   padding: 8px 16px;
 }
 
-button:hover {
+#exercise6 button:hover {
     cursor:grab;
     background-color: #666;
 }
 
-input {
+#exercise6 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
@@ -305,7 +306,7 @@ input {
   margin-bottom: 16px;
 }
 
-.content{
+#exercise6 .content{
     flex: 1;
     display: flex;
     justify-content: center;
@@ -313,27 +314,27 @@ input {
     flex-direction: column;
 }
 
-.header, .footer{
+#exercise6 .header, .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding:16px;
 }
 
-a {
+#exercise6 a {
     text-decoration: none;
     color: #666;
 }
 
-a:hover {
+#exercise6 a:hover {
     color: #eee;
 }
 
-.footer {
+#exercise6 .footer {
     background-color: #eee;
 }
 
-.left-links, .right-links {
+#exercise6 .left-links, .right-links {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -341,16 +342,16 @@ a:hover {
     margin: 0;
 }
 
-ul {
+#exercise6 ul {
     margin: 0;
     padding: 0;
 }
-*/
+
 /* ------------------------------------------------------------------------- */
 
 /* Exercise 7 - layout  2 */
 
-/* body {
+#exercise7 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
@@ -358,7 +359,7 @@ ul {
     flex-direction: column;
   }
   
-  .header {
+  #exercise7 .header {
     height: 72px;
     background: darkmagenta;
     color: white;
@@ -369,7 +370,7 @@ ul {
     align-items: center;
   }
   
-  .footer {
+  #exercise7 .footer {
     height: 72px;
     background: #eee;
     color: darkmagenta;
@@ -378,7 +379,7 @@ ul {
     justify-content: center;
   }
   
-  .sidebar {
+  #exercise7 .sidebar {
     width: 300px;
     background: royalblue;
     display: flex;
@@ -388,22 +389,22 @@ ul {
     padding: 16px;
   }
 
-  a {
+  #exercise7 a {
     text-decoration: none;
     color: white;
   }
 
-  ul {
+  #exercise7 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
 
-  li {
+  #exercise7 li {
     margin-bottom: 16px;
   }
 
-  .cards {
+  #exercise7 .cards {
     justify-content: space-around;
     display: flex;
     flex-direction: row;
@@ -411,7 +412,7 @@ ul {
     padding: 32px;
   }
   
-  .card {
+  #exercise7 .card {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
@@ -420,8 +421,8 @@ ul {
     margin: 16px;
   }
 
-  .content {
+  #exercise7 .content {
     display: flex;
     flex: 1;
-  } */
+  }
 
